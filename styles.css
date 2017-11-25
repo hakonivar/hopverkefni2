@@ -18,7 +18,7 @@ html {
   font-family: Lato, helvetica, arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color:#white;
+  color: white;
   background-color: #333;
  }
 
@@ -97,7 +97,6 @@ main {
   min-width: 200px;
   max-width: 500px;
   overflow: hidden;
-  background-color: #eee;
   border-radius: 3px;
 }
   .card__img {
