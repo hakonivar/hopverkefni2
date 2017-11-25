@@ -103,6 +103,17 @@ main {
     width: 100%;
     min-width: 200px;
     max-width: 500px; }
+
+    .video_duration {
+    z-index: 1;
+      float: right;
+      padding-right: 0.5em;
+      padding-left: 0.5em;
+      margin-top: -2em;
+      margin-right: 0.5em;
+      text-align: center;
+      background-color: #333;
+      opacity: 0.8; }
   @media (min-width: 600px) {
     .card--wide {
       display: flex; } }
@@ -122,16 +133,16 @@ main {
   flex-wrap: wrap;
   margin-right: -10px;
   margin-left: -10px;
-margin-bottom: 20px;}
+  margin-bottom: 20px;}
 
 .cardlist__row1 {
   display: flex;
   max-width: 80%;
-  max-height: 560px;
+  max-height: 900px;
   flex-wrap: wrap;
   margin-right: -10px;
   margin-left: -10px;
-margin-bottom: 20px;}
+  margin-bottom: 20px;}
 
 .cardlist__row2 {
   display: flex;
@@ -140,7 +151,7 @@ margin-bottom: 20px;}
   flex-wrap: wrap;
   margin-right: -10px;
   margin-left: -10px;
-margin-bottom: 20px;}
+  margin-bottom: 20px;}
 
 .cardlist__col {
   width: 100%;
@@ -148,7 +159,8 @@ margin-bottom: 20px;}
   max-height: 500px;
   padding-right: 10px;
   padding-left: 10px;
-  margin: 0 0 20px; }
+  margin: 0 0 20px;
+}
   @media (min-width: 600px) {
     .cardlist__col {
       width: 50%;
