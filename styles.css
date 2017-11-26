@@ -166,3 +166,10 @@ main {
       width: 50%;
       margin-right: 0;
       margin-left: 0; } }
+
+.vid {
+align-items: center;
+margin-left: 78px;
+padding: 10px;
+}
+
