@@ -1,0 +1,53 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 10px;
+  line-height: 1.5;
+  background-color: #333;
+}
+
+html, body {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  max-width: 1030px;
+  height: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  color: #eee;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+a { 
+  text-decoration: none;
+}
+
+.fault {
+  display: flex;
+  width: 100%;
+  margin-top: 150px;
+  justify-content: center;
+}
+
+  .fault2 {
+    font-size: 2em;
+    font-weight: 300;
+  }
+@import "scss/index";
+@import "scss/player";
